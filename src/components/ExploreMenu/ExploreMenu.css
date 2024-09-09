@@ -1,0 +1,48 @@
+.exploreMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+.exploreMenu h1{
+    color: #262626;
+    font-weight: 500;
+}
+.exploreMenu-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin: 20px 0 0 0;
+    /* padding-left: 20px; */
+    overflow-x: scroll;
+}
+.foodContainer{
+    /* border: solid green; */
+}
+.exploreMenu-list::-webkit-scrollbar{
+    display: none;
+}
+.exploreMenu-list img{
+    max-width: 9vw;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.exploreMenu p{
+    color: #747474;
+}
+.exploreMenu hr{
+    margin: 10px 0;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+.exploreMenu .active{
+    border: tomato solid 4px;
+    height: 100px;
+    width: 100px;
+    padding: 5px;
+}

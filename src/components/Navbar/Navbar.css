@@ -1,0 +1,55 @@
+/* linked to the Navbar.jsx */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    /* background-color: red; */
+}
+.navbar .logo{
+    width: 150px;
+}
+.navbar-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    color: rgb(104, 104, 211);
+}
+li{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.navbar button{
+    background-color: transparent;
+    font-size: 16px;
+    border: 1px solid tomato;
+    color:  rgb(104, 104, 211);
+    padding: 10px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: 0.5;
+}
+.navbar button:hover{
+    background:  rgb(217, 217, 222);
+}
+.Active{
+    padding-bottom: 2px;
+    border-bottom: 4px solid gold;
+}
+.navbar-searchIcon{
+    position: relative;
+}
+.dot{
+    min-height: 7px;
+    min-width: 7px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    top: -5px; right: -5px;
+}

@@ -1,0 +1,47 @@
+.header{
+    position: relative;
+    margin: 30px auto;
+}
+.header-contents{
+    position: absolute;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    /* background-color: blanchedalmond; */
+    bottom: 10%;
+    left: 10%;
+    /* animation-fadeIn */
+    animation: fadeIn 3s;
+}
+.header-backgroundImg{
+    min-height: 60vh;
+    /* width: 80vw; */
+}
+.header-contents h3{
+    font-weight: 500;
+    color: white;
+    font-size: max(4.5vw, 22px);
+}
+.header-contents p{
+    color: white;
+    font-size: 1rem;
+}
+.header-backgroundImg img{
+    height: 100%;
+    width: 100%;
+}
+.header-contents button{
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    border: solid 2px white;
+    border-radius: 8px;
+    width: 150px;
+}
+.header-contents button:hover{
+    background-color: rgb(218, 147, 66);
+
+}
