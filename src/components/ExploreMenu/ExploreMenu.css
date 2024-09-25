@@ -41,8 +41,8 @@
     border: none;
 }
 .exploreMenu .active{
-    border: tomato solid 4px;
+    border: tomato solid 2px;
     height: 100px;
     width: 100px;
-    padding: 5px;
+    padding: 1px;
 }

@@ -1,7 +1,7 @@
 import React from 'react'
-import './Header.css'
+import './LandingPage.css'
 import { assets } from '../../assets/assets'
-const Header = () => {
+const LandingPage = () => {
   return (
     <div className='header'>
         <div className='header-backgroundImg'>
@@ -17,4 +17,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default LandingPage
